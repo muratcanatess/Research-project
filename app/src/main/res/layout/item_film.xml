@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/ivFilmImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvFilmTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Film Title"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvFilmDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Film Description"
+        android:textSize="14sp"
+        android:paddingTop="4dp"/>
+
+</LinearLayout>
